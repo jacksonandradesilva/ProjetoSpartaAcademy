@@ -1,0 +1,13 @@
+CREATE DATABASE SpartaAcademy;
+
+CREATE TABLE register (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    address VARCHAR(255),
+    state VARCHAR(255),
+    cep VARCHAR(255),
+    mode VARCHAR(255),
+    instructor VARCHAR(255),
+    birthdate VARCHAR(255)
+);
